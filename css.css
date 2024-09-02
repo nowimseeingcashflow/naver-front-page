@@ -1,0 +1,8 @@
+.shortcuts-list{
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.box{
+    padding: 30px;
+}
