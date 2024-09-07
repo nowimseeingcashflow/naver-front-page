@@ -29,10 +29,6 @@
   margin-top: 20px;
   position: relative;
   height: auto;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 10px;
-  border-color: rgba(169, 169, 169, 0.216);
   overflow: hidden;
   clear: both;
 }
@@ -47,8 +43,8 @@
   list-style-type: none;
   overflow: hidden;
   align-items: center;
-  float: right;
 }
+
 .small-articles {
   line-height: 300%;
   vertical-align: middle;
@@ -78,14 +74,40 @@
 
 .login-section {
   height: 100px;
-  border-style: solid;
   place-content: center;
-  border-width: 2px;
-  border-radius: 10px;
-  border-color: rgba(169, 169, 169, 0.216);
 }
 
 #login {
   display: block;
   margin: 0 auto;
+}
+
+.round-box {
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgba(169, 169, 169, 0.216);
+  border-style: solid;
+}
+
+.recommend {
+  height: 135px;
+  padding: 15px;
+}
+
+.recommend > span {
+  float: left;
+  margin-right: 20px;
+}
+.slide {
+  float: left;
+}
+
+.slide > button {
+  display: inline-block;
+}
+
+.slide > a > img {
+  height: 66px;
+  width: 66px;
+  display: inline-block;
 }
