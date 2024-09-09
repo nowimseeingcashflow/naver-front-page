@@ -1,0 +1,113 @@
+.shortcuts-list,
+#news-header-list {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.box {
+  width: 1230px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.box-left {
+  width: 800px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.box-right {
+  padding-left: 30px;
+  width: 430px;
+  box-sizing: border-box;
+  overflow: hidden;
+  float: left;
+}
+
+.news-stand {
+  margin-top: 20px;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+}
+.news-header {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+}
+.small-news {
+  position: relative;
+  width: 40%;
+  list-style-type: none;
+  overflow: hidden;
+  align-items: center;
+}
+
+.small-articles {
+  line-height: 300%;
+  vertical-align: middle;
+}
+.big-news {
+  width: 40%;
+  list-style-type: none;
+  display: block;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  float: left;
+}
+.big-news-picture {
+  float: left;
+  border-radius: 90%;
+}
+
+.big-articles {
+  padding: 10px;
+  height: 103px;
+}
+
+#news-header-list::before {
+  content: "　/ ";
+}
+
+.login-section {
+  height: 100px;
+  place-content: center;
+}
+
+#login {
+  display: block;
+  margin: 0 auto;
+}
+
+.round-box {
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgba(169, 169, 169, 0.216);
+  border-style: solid;
+}
+
+.recommend {
+  height: 135px;
+  padding: 15px;
+}
+
+.recommend > span {
+  float: left;
+  margin-right: 20px;
+}
+.slide {
+  float: left;
+}
+
+.slide > button {
+  display: inline-block;
+}
+
+.slide > a > img {
+  height: 66px;
+  width: 66px;
+  display: inline-block;
+}
